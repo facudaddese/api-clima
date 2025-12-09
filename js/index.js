@@ -21,7 +21,7 @@ btn.addEventListener("click", async () => {
     }
 
     try {
-        const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=${API_KEY}&units=metric&lang=es`);
+        const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input.value.trim()}&appid=${API_KEY}&units=metric&lang=es`);
         const data = await res.json();
 
         if (!res.ok) {
