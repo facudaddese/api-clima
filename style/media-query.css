@@ -6,7 +6,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
 
     #header .search-container {
         text-align: center;
@@ -14,7 +14,8 @@
 
     #header .search-container input {
         margin-bottom: 30px;
-        width: 100%;
+        width: 90vw;
+        margin-right: 0;
     }
 
     #footer p {
