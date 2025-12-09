@@ -4,7 +4,7 @@ const countryClimate = document.getElementById("country-climate");
 const API_KEY = "6c6b7d8b991bcc6273c2040a877aca6b";
 
 btn.addEventListener("click", async () => {
-    if (input.value.trim() === "") {
+    if (input.value === "") {
         Toastify({
             text: "Ingrese país o ciudad",
             duration: 3000,
