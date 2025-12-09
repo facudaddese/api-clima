@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* ------------------------ */
+
+/*  RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------ */
+
+/* BODY */
+
+body {
+    font-family: "Red Hat Text", sans-serif;
+}
+
+/* ------------------------ */
+
+/* HEADER */
+
+header {
+    background-image: url("../assets/paisajeFondo.jpg");
+    height: 100vh;
+    /* height: 60vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-header {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.search-container input {
+    font-family: "Red Hat Text", sans-serif;
+    padding: 10px;
+    width: 350px;
+    box-shadow: 0px 15px 11px -8px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.search-container input:focus {
+    outline: none;
+    background: linear-gradient(0deg, rgb(173, 173, 173) 0%, rgba(255, 255, 255, 1) 33%);
+}
+
+.search-container button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+}
+
+.search-container button:hover {
+    cursor: pointer;
+    background-color: #dddddd;
+}
+
+/* ------------------------ */
+
+/* MAIN */
+
+.country-climate {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.country-climate .title-country {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 40px 30px;
+    background: #f7f7f77d;
+    border-radius: 5px;
+    border: 1px solid rgb(217, 217, 217);
+}
+
+.flex-container .temp-container h2 {
+    font-size: 45px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.characteristics-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 10px;
+}
+
+.characteristics-container h3 {
+    font-weight: 500;
+    align-self: center;
+}
+
+.characteristics-container p {
+    font-weight: bold;
+    align-self: center;
+}
+
+/* ------------------------ */
+
+footer {
+    text-align: center;
+    padding: 30px 0 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+}
+
+footer p>a {
+    text-decoration: none;
+    color: #559ad2;
+    font-weight: 900;
+}
