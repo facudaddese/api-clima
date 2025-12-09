@@ -1,5 +1,5 @@
 
-# Weather App – Consumo de API OpenWeatherMap
+# Weather API
 
 Proyecto que demuestra el consumo de APIs REST mediante JavaScript vanilla. Desarrollado con **Fetch API** y manejo asíncrono para obtener información meteorológica de **OpenWeatherMap**. [Ver sitio](https://facudaddese.github.io/api-clima/)
 
